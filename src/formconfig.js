@@ -57,6 +57,11 @@ export const CONSPOINT_FORM_CONFIG = [{
     label: "popis"
   },
   {
+    name: "note",
+    component: "dyn-input",
+    label: "poznamka"
+  },
+  {
     name: "settings",
     component: "dyn-input",
     label: "nastavení",

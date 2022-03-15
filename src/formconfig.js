@@ -3,6 +3,12 @@ export const CONSPOINT_FORM_CONFIG = [{
   label: "#",
   fieldcomponent: true
 }, {
+  name: "medium",
+  component: "dyn-input",
+  label: "medium",
+  fieldcomponent: true,
+  sortable: true
+}, {
     name: "ico",
     component: "dyn-input",
     label: "IČO vlastníka",

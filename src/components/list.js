@@ -9,6 +9,7 @@ export default {
 
       <tr v-for="row,rowidx in items" :key="rowidx">
         <td>{{ row.id }}</td>
+        <td>{{ row.medium }}</td>
         <td>{{ row.ico }}</td>
         <td>{{ row.buildingid }}</td>
         <td>{{ row.sensor_type }}</td>
